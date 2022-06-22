@@ -20,7 +20,22 @@
     .body_content{
         min-height: 70vh;
     }
+    .product_body_content img{
+        max-height: 500px;
+    }
+    .trending_product{
+        margin:100px 0px;
+    }
+    .trending_product img{
+        max-width: 80%;
+        max-height:242px;
+    }
+    .trending_product p{
+        font-size: 20px;
+        font-weight: 600;
+    }
 </style>
+@yield('custom_css')
 <script>
     $(document).ready(function(){
         $("button").click(function(){
